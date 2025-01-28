@@ -1,6 +1,2 @@
-[package]
-name = "criper_key"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
+[workspace]
+members = ["cli", "crypto", "gui", "storage", "tui", "utils"]
